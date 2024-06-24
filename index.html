@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <div id="cont">
+    <h1>Calculator</h1>
+    <div id="box">
+    <label>First value:</label> <input type="text" id="q" placeholder="Enter the value"><br><br>
+    <label>Second value:</label> <input type="text" id="w" placeholder="Enter the value"><br>
+    </div>
+<h2>Click the operation you want to perform:</h2>
+<div id="button">
+<button onclick="add()" id="add">Add</button> <button onclick="sub()" id="sub">Sub</button> <br><button onclick="mul()" id="mul">Mul</button> <button onclick="div()" id="div">Div</button><br>
+
+<br><input type="text" readonly id="demo" placeholder="The solution is..."></div>
+</div>
+
+</body>
+
+</html>
